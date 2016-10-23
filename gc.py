@@ -7,7 +7,7 @@ columns = ['account_checking', 'duration', 'credit_history', 'purpose', 'credit_
            ]
 
 work_dir = os.getcwd()
-in_dir = work_dir + '/'
+in_dir = work_dir + '/in/'
 
 files = os.listdir(in_dir)
 in_file = [in_dir + f for f in files if re.match(r'german\.data', f)].pop()
